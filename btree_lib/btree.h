@@ -45,7 +45,7 @@ bt_error_t destroy_btree(struct _node* node);
 
 bt_error_t btree_insert(struct _node* node, unsigned int key, void* data);
 struct _item* btree_find_item(struct _node* node, unsigned int key);
-bt_error_t tree_delete_item(struct _node* node, unsigned int key);
+bt_error_t btree_delete_item(struct _node* node, unsigned int key);
 
 
 #endif
