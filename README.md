@@ -29,4 +29,5 @@ bt_error_t btree_delete_item(btree* node, unsigned int key);
 
 
 **Visualization:**
+
 The visualization of the b-tree based on ncurses. If make failed, because ncurses in missing, it should be enough to install 'libncursesw5-dev'.
