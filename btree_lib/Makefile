@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -Wextra
+CFLAGS=-c -Wall -Wextra -O3
 
 output: btree.o
 	ar rcs btree.a btree.o
