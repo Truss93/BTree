@@ -729,7 +729,7 @@ bt_error_t btree_delete_item(struct _node* node, unsigned int key)
 
 	int degree_of_tree  = ((struct _config*)node->pointer_parent)->degree_of_tree;
 	int min_before_underflow = ((degree_of_tree % 2) + degree_of_tree) / 2 - 1;
-	int own_index;
+	int own_index = 0;
 	struct _node* ptr_parent;
 
 	struct _find node_found = find_node(node, key);
