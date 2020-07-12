@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -Wextra
+CFLAGS=-c -Wall -Wextra -O3
 LDFLAGS=btree.a
 
 output: main.o 
